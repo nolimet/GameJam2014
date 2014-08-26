@@ -21,7 +21,7 @@ public class Score : MonoBehaviour {
 	public void mistake ()
 	{
 		multiplierCounter = 0;
-		multiplierScore = 0;
+		multiplierScore = 1;
 		score -= 20 * multiplierScore;
 	}
 
