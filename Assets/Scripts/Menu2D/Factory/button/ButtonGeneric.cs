@@ -22,6 +22,7 @@ namespace menu
                     TextMesh txm = b.AddComponent<TextMesh>();
                     txm.font = ft;
                     txm.fontSize = fs*ButtonFactory.fontScale;
+                    b.transform.localScale = b.transform.localScale / ButtonFactory.fontScale;
                     txm.text = tx;
                     
 

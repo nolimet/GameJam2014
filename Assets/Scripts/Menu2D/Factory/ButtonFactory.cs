@@ -8,7 +8,7 @@ namespace menu
         public class ButtonFactory : MonoBehaviour
         {
             #region TextRelated
-            public const int fontScale = 1;
+            public const int fontScale = 4;
             //Find fix for loading materials;
             static public Material fontMat;
             static public Font font;
@@ -29,6 +29,7 @@ namespace menu
             //bug Currently:
             //fontMat,font need to be set solid somewhere in a manager of sorts
             #region Creator
+            //Creats a button and calls the need functions
             public static GameObject makeButton(Buttons bu,Transform parent, Vector3 pos = new Vector3(),  int fontSize = 20, string text = "", int ToMenu = -1, string url="")
             {
                 GameObject b = null;
