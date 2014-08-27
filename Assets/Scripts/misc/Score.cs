@@ -6,11 +6,11 @@ public class Score {
 	public static int multiplierScore = 1;
 	public static int multiplierCounter = 0;
 
-	public static void enemyKilled ()
+	public static void addScore ()
 	{
         Statics.Score += 20 * multiplierScore;
 		multiplierCounter++;
-		if (multiplierCounter == 10) 
+		if (multiplierCounter >= 10) 
 		{
 			multiplierScore++;
 			multiplierCounter = 0;

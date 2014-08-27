@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using menu.factory.action;
 namespace menu
 {
     namespace factory
@@ -8,9 +9,10 @@ namespace menu
         {
             public class ResetHighScoreButton : ButtonGeneric
             {
-                static public GameObject resetHighScoreButton(Material m, Font ft, int Size, string text, string url, TextAnchor txmach = TextAnchor.UpperLeft)
+                static public GameObject resetHighScoreButton(Material m, Font ft, int Size, TextAnchor txmach = TextAnchor.UpperLeft)
                 {
-                    GameObject b = MakeBase(m, ft, "Rest HighScore", Size, txmach);
+                    GameObject b = MakeBase(m, ft, "Reset HighScore", Size, txmach);
+                    b.AddComponent<ResetHighScore>();
 
                     return b;
                 }

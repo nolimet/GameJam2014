@@ -8,6 +8,8 @@ public class SaveManager : MonoBehaviour
 #if UNITY_EDITOR
     [SerializeField]
     int HighScore = 0;
+    [SerializeField]
+    bool setscore;
 #endif
     void Start()
     {
@@ -31,7 +33,11 @@ public class SaveManager : MonoBehaviour
 #if UNITY_EDITOR
     void Update()
     {
-        Statics.HighestScore = HighScore;
+        if (setscore)
+        {
+            Statics.HighestScore = HighScore;
+            setscore = false;
+        }
     }
 #endif
 }
