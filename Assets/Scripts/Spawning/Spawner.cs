@@ -9,7 +9,7 @@ public class Spawner : MonoBehaviour {
 	private int corner;
 
 	void Update(){
-		if (soundCheck.spawner == false) {
+		if (soundCheck.spawner == true) {
 			corner = Random.Range(0, 4);
 			Spawn();		
 		}
