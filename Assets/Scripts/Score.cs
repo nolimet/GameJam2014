@@ -1,15 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Score : MonoBehaviour {
+public class Score {
 
-	private int score = 0;
-	private int multiplierScore = 1;
-	private int multiplierCounter = 0;
+	public static int multiplierScore = 1;
+	public static int multiplierCounter = 0;
 
-	public void enemyKilled ()
+	public static void enemyKilled ()
 	{
-		score += 20 * multiplierScore;
+        Statics.Score += 20 * multiplierScore;
 		multiplierCounter++;
 		if (multiplierCounter == 10) 
 		{
@@ -18,18 +17,17 @@ public class Score : MonoBehaviour {
 		}
 	}
 
-	public void mistake ()
+	public static void mistake ()
 	{
 		multiplierCounter = 0;
 		multiplierScore = 1;
-		score -= 20 * multiplierScore;
 	}
 
-	public void gameEnd () 
+	public static void gameEnd () 
 	{
-		if (score > PlayerPrefs.GetInt("Highscore"))
+        if (Statics.Score > Statics.HighestScore)
 		{
-			PlayerPrefs.SetInt("Highscore",score);
+            Statics.HighestScore = Statics.Score;
 		}
 	}
 }
