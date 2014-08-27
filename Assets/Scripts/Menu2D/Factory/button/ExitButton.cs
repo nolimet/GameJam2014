@@ -9,9 +9,9 @@ namespace menu
         {
             public class ExitButton : ButtonGeneric
             {
-                public static GameObject exitButton(Material m,Font ft , int Size)
+                public static GameObject exitButton(Material m, Font ft, int Size, TextAnchor txmach = TextAnchor.UpperLeft)
                 {
-                    GameObject b = MakeBase(m,ft,"Exit",Size);
+                    GameObject b = MakeBase(m,ft,"Exit",Size,txmach);
                     b.AddComponent<ExitGame>();
                     b.name = "Exit";
                     return b;

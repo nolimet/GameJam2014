@@ -7,13 +7,15 @@ namespace menu
         public class ButtonPlace : MonoBehaviour
         {
             public ButtonFactory.Buttons buttonType;
+            public TextAnchor TextAnchorPoint;
             public int FontSize = 0;
             public string Text = "";
             public int toMenu =-1;
             public string url = "";
+            
             void Start()
             {
-                ButtonFactory.makeButton(buttonType, transform.parent, transform.position, FontSize, Text, toMenu,url);
+                ButtonFactory.makeButton(buttonType, transform.parent, transform.position, FontSize, Text, toMenu, url, TextAnchorPoint);
                 DestroyImmediate(this.gameObject);
             }
         }

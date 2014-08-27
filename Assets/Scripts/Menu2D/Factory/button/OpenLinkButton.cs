@@ -9,9 +9,9 @@ namespace menu
         {
             public class OpenLinkButton : ButtonGeneric
             {
-               static public GameObject openLinkButton(Material m, Font ft, int Size, string text, string url)
+               static public GameObject openLinkButton(Material m, Font ft, int Size, string text, string url, TextAnchor txmach = TextAnchor.UpperLeft)
                 {
-                    GameObject b = MakeBase(m, ft, text, Size);
+                    GameObject b = MakeBase(m, ft, text, Size,txmach);
                     b.AddComponent<Link>().init(url);
                     return b;
                 }

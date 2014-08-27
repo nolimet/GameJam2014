@@ -10,9 +10,9 @@ namespace menu
             public class LoadLevelButton : ButtonGeneric
             {
 
-                public static GameObject loadLevelButton (Material m, Font ft, int Size, string text, string url)
+                public static GameObject loadLevelButton(Material m, Font ft, int Size, string text, string url, TextAnchor txmach = TextAnchor.UpperLeft)
                 {
-                    GameObject b = MakeBase(m, ft, text, Size);
+                    GameObject b = MakeBase(m, ft, text, Size,txmach);
                     b.AddComponent<LoadLevel>().init(url);
 
                     return b;

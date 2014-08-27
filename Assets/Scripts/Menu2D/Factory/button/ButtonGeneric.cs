@@ -14,14 +14,16 @@ namespace menu
                  * 
                  * 
                  */
-                static protected GameObject MakeBase(Material m,Font ft ,string tx, int fs)
+                static protected GameObject MakeBase(Material m,Font ft ,string tx, int fs, TextAnchor txmach = TextAnchor.UpperLeft)
                 {
                     GameObject b = new GameObject();
                     MeshRenderer mr = b.AddComponent<MeshRenderer>();
                     mr.material = m;
                     TextMesh txm = b.AddComponent<TextMesh>();
                     txm.font = ft;
+                    txm.anchor = txmach;
                     txm.fontSize = fs*ButtonFactory.fontScale;
+                    b.transform.localScale = b.transform.localScale / ButtonFactory.fontScale;
                     txm.text = tx;
                     
 

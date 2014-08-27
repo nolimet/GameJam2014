@@ -8,7 +8,7 @@ namespace menu
         public class ButtonFactory : MonoBehaviour
         {
             #region TextRelated
-            public const int fontScale = 1;
+            public const int fontScale = 4;
             //Find fix for loading materials;
             static public Material fontMat;
             static public Font font;
@@ -29,22 +29,23 @@ namespace menu
             //bug Currently:
             //fontMat,font need to be set solid somewhere in a manager of sorts
             #region Creator
-            public static GameObject makeButton(Buttons bu,Transform parent, Vector3 pos = new Vector3(),  int fontSize = 20, string text = "", int ToMenu = -1, string url="")
+            //Creats a button and calls the need functions
+            public static GameObject makeButton(Buttons bu, Transform parent, Vector3 pos = new Vector3(), int fontSize = 20, string text = "", int ToMenu = -1, string url = "", TextAnchor txmach = TextAnchor.UpperLeft)
             {
                 GameObject b = null;
                 switch (bu)
                 {
                     case Buttons.Exit:
-                       b = ExitButton.exitButton(fontMat, font, fontSize);
+                       b = ExitButton.exitButton(fontMat, font, fontSize,txmach);
                         break;
                     case Buttons.ChangeMenu:
-                        b = ChangeMenuButton.changeMenuButton(fontMat, font, fontSize, text, ToMenu);
+                        b = ChangeMenuButton.changeMenuButton(fontMat, font, fontSize, text, ToMenu, txmach);
                         break;
                     case Buttons.Link:
-                        b = OpenLinkButton.openLinkButton(fontMat, font, fontSize, text, url);
+                        b = OpenLinkButton.openLinkButton(fontMat, font, fontSize, text, url, txmach);
                         break;
                     case Buttons.LevelLink:
-                        b = menu.factory.button.LoadLevelButton.loadLevelButton(fontMat, font, fontSize, text, url);
+                        b = menu.factory.button.LoadLevelButton.loadLevelButton(fontMat, font, fontSize, text, url, txmach);
                         break;
                     default:
                         b=new GameObject();

@@ -9,9 +9,9 @@ namespace menu
         {
             public class ChangeMenuButton : ButtonGeneric
             {
-                public static GameObject changeMenuButton(Material m, Font ft, int Size, string text,int toMenu)
+                public static GameObject changeMenuButton(Material m, Font ft, int Size, string text,int toMenu, TextAnchor txmach = TextAnchor.UpperLeft)
                 {
-                    GameObject b = MakeBase(m,ft,text,Size);
+                    GameObject b = MakeBase(m,ft,text,Size,txmach);
                     ChangeMenu cm = b.AddComponent<ChangeMenu>();
                     cm.OpenMenuID = toMenu;
                     b.name = text;
