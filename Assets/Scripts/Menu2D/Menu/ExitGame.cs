@@ -4,9 +4,9 @@ namespace menu_old
 {
     public class ExitGame : TriggerV2
     {
-        protected override void IWillDo()
+        public override void doAction()
         {
-            base.IWillDo();
+            base.doAction();
             Application.Quit();
         }
     }
