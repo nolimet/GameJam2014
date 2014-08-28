@@ -6,10 +6,6 @@ public class HitBox : MonoBehaviour {
 
     [SerializeField]
     bool[] KeyPressed;
-    
-    [SerializeField]
-    [Range(1,4)]
-    int key = 1;
 
     void Start()
     {
