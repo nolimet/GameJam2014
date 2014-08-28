@@ -1,34 +1,45 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(CircleCollider2D))]
 public class HitBox : MonoBehaviour {
 
     [SerializeField]
-    bool KeyPressed;
+    bool[] KeyPressed;
     
     [SerializeField]
     [Range(1,4)]
     int key = 1;
 
+    void Start()
+    {
+        KeyPressed = new bool[4];
+    }
+
     void Update()
     {
-        if (Input.GetAxis("key" + key) > 0.001f)
+        for (int i = 0; i <= 3; i++)
         {
-            KeyPressed = true;
+            if (Input.GetAxis("key" + (i+1)) > 0.001f)
+            {
+                KeyPressed[i] = true;
+            }
+            else
+            {
+                KeyPressed[i] = false;
+            }
+            print(i + ":" + KeyPressed[i]);
         }
-        else
-        {
-            KeyPressed = false;
-        }
-        print(KeyPressed);
     }
 
 	void OnTriggerEnter2d(Collision2D other){
-        if (other.gameObject.tag == Statics.EnemyTag)
+        for (int i = 0; i <= 3; i++)
         {
-            Score.addScore();
-            Destroy(other.gameObject);
+            if (KeyPressed[i] && other.gameObject.tag == Statics.EnemyTag && other.gameObject.name == "Enemy " + i)
+            {
+                Score.addScore();
+                Destroy(other.gameObject);
+            }
         }
-
     }
 }
