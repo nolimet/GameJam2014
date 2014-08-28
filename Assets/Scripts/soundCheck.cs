@@ -4,29 +4,60 @@ using System.Collections;
 public class soundCheck : MonoBehaviour {
 	private float counter = 0;
 	public static bool spawner;
+	public static bool spawner2;
+	public static bool spawner3;
+	public static bool spawner4;
 	private float[] freqData;
 	private int nSamples = 1024;
-	/*private float fmax;
+	private float freqLow;
+	private float freqMid;
+	private float freqMidTwo;
+	private float freqHigh;
 
-	void GetSpectrum(){
-		audio.GetSpectrumData (freqData, 0, FFTWindow.BlackmanHarris);
-	
-	}
-	void BandVol(float fLow, float fHigh){
-		fLow = Mathf.Clamp (fLow, 20, fmax);
-		fHigh = Mathf.Clamp (fHigh, fLow, fmax);
-		float n1 = Mathf.Floor (fLow * nSamples / fmax);
-		float n2 = Mathf.Floor (fHigh * nSamples / fmax);
-		float sum = 0;
-
-		for (float i = fLow; i < fHigh; i++) {
-			sum += freqData[i];		
-		}
-		return sum / (fLow - fHigh);
-	}*/
 	void Update() {
-		//print (spawner);
-		freqData = audio.GetSpectrumData(nSamples, 0, FFTWindow.Hamming);
+
+		/*om de frequenties van de spectrum wave van de audio gebruik je GetspectrumData*/
+		freqData = AudioListener.GetSpectrumData (nSamples, 0, FFTWindow.Hamming);
+
+		float low = freqData [3] + freqData [2] + freqData [4];
+		float mid = freqData [11] + freqData [12] + freqData [13];
+		float midTwo = freqData [22] + freqData [23] + freqData [24];
+		float high = freqData [44] + freqData [45] + freqData [46] + freqData [47] + freqData [48] + freqData [49];
+		//print (low);
+		//print ("high: " + high);
+		spawner = false;
+		spawner2 = false;
+		spawner3 = false;
+		spawner4 = false;
+		freqLow = 0.004f;
+		freqMid = 0.009f;
+		freqMidTwo = 0.01f;
+		freqHigh = 0.01f;
+
+		counter += Time.deltaTime;
+		print (counter);
+
+		if (counter >= 12.6) {
+			freqMid = 0.007f;		
+		}
+		if (counter >= 14.6) {
+			freqMid = 0.005f;
+			freqLow = 0.1f;
+		}
+
+		if (low >= freqLow) {
+			spawner = true;
+		}
+		if (mid >= freqMid) {
+			spawner2 = true;
+		}
+		if (midTwo >= freqMidTwo) {
+			spawner3 = true;
+		}
+		if (high >= freqHigh) {
+			spawner4 = true;
+		}
+		/*freqData = audio.GetSpectrumData(nSamples, 0, FFTWindow.Hamming);
 
 		int i = 1;
 		spawner = false;
@@ -41,6 +72,6 @@ public class soundCheck : MonoBehaviour {
 					spawner = true;
 				} 
 
-		}
+		}*/
 	}
 }

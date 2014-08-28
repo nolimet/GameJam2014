@@ -1,8 +1,7 @@
 fileFormatVersion: 2
-guid: f1001f05959f247ed9f4b29c004d0f78
+guid: 91bed3bf868d70b4d8423d8874a963e0
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: muzieknoot
+  fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
