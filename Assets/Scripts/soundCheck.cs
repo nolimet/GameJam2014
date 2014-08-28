@@ -35,7 +35,7 @@ public class soundCheck : MonoBehaviour {
 		freqHigh = 0.01f;
 
 		counter += Time.deltaTime;
-		print (counter);
+		print (counter + ". mid: " + mid);
 
 		if (counter >= 12.6) {
 			freqMid = 0.007f;		
