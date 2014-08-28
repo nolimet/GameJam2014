@@ -11,6 +11,11 @@ namespace menu_old
         public bool Disabled = false;
         public bool State = false;
 
+        [SerializeField]
+        float waitTimer;
+        [SerializeField]
+        bool UseTimer;
+
         protected virtual void Start()
         {
             if (Disabled)
@@ -32,6 +37,17 @@ namespace menu_old
             {
                 State = true;
             }
+        }
+
+        void Update()
+        {
+            if (UseTimer)
+            {
+                waitTimer -= Time.deltaTime;
+                if (waitTimer < 0)
+                    State = true;
+            }
+
         }
     }
 }

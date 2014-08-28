@@ -10,10 +10,6 @@ public class Spawner : MonoBehaviour {
 
 	private int corner;
 
-    void Start()
-    {
-        
-    }
 
 	void Update(){
 		time += Time.deltaTime;
