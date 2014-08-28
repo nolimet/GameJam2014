@@ -7,7 +7,7 @@ namespace menu
     {
         namespace button
         {
-            public class ButtonGeneric : MonoBehaviour
+            public class ButtonGeneric
             {
                 /*
                  * base class for button
@@ -25,6 +25,7 @@ namespace menu
                     txm.fontSize = fs*ButtonFactory.fontScale;
                     b.transform.localScale = b.transform.localScale / ButtonFactory.fontScale;
                     txm.text = tx;
+                    b.name = tx;
                     
 
                     b.AddComponent<BoxCollider2D>();

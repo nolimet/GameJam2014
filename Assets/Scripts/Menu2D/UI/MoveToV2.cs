@@ -10,7 +10,7 @@ namespace menu
         public Vector2 moveAmount; // the amount it's going to move in any direction
         public bool move;       // if it has moved or needs to
         public bool atNewPos = false;//true it goes to new pos. False it goes to origen
-        // Use this for initialization
+
         void Start()
         {
             origen = transform.position;
@@ -20,7 +20,6 @@ namespace menu
             }
         }
 
-        // Update is called once per frame
         void Update()
         {
             if (!atNewPos)

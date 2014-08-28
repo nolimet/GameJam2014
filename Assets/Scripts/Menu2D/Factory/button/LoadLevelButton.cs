@@ -14,7 +14,6 @@ namespace menu
                 {
                     GameObject b = MakeBase(m, ft, text, Size,txmach);
                     b.AddComponent<LoadLevel>().init(url);
-
                     return b;
                 }
             }

@@ -8,9 +8,8 @@ namespace menu_old
     public class TriggerV2 : MonoBehaviour
     {
         public int OpenMenuID;
-        public bool Disabled;
+        public bool Disabled = false;
         public bool State = false;
-        public bool triggered = false;
 
         protected virtual void Start()
         {
@@ -20,7 +19,7 @@ namespace menu_old
             }
         }
 
-        protected virtual void IWillDo()
+        public virtual void doAction()
         {
             if (!Disabled)
             {

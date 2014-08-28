@@ -5,7 +5,7 @@ namespace menu
 {
     namespace factory
     {
-        public class ButtonFactory : MonoBehaviour
+        public class ButtonFactory
         {
             #region TextRelated
             public const int fontScale = 4;
@@ -18,10 +18,12 @@ namespace menu
             #region Enum's
             public enum Buttons
             {
+                Unset,
                 Exit,
                 ChangeMenu,
                 Link,
-                LevelLink
+                LevelLink,
+                ResetHighScore
             }
             #endregion
 
@@ -47,10 +49,13 @@ namespace menu
                     case Buttons.LevelLink:
                         b = menu.factory.button.LoadLevelButton.loadLevelButton(fontMat, font, fontSize, text, url, txmach);
                         break;
+                    case Buttons.ResetHighScore:
+                        b = ResetHighScoreButton.resetHighScoreButton(fontMat, font, fontSize, txmach);
+                        break;
                     default:
                         b=new GameObject();
                         b.name="Buttons.##Error##";
-                        Destroy(b, 0.1f);
+                        Object.DestroyImmediate(b);
                         break;
 
                 }
