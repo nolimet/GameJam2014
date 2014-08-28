@@ -14,13 +14,15 @@ public class Pauze : MonoBehaviour {
 				paused = false;
 				Time.timeScale = difficult; //spel gaat door op de vooraf gestelde snelheid
 				GameObject.Find ("SpawnChecker").audio.Play();
-
+				GameObject.Find ("Directional light").light.intensity = 0.28f;
 			}
 			else
 			{
 				paused = true;
 				Time.timeScale = 0;			//spel stopt tijdelijk tot je weer opnieuw op p drukt
 				GameObject.Find ("SpawnChecker").audio.Pause();
+				GameObject.Find ("Directional light").light.intensity = 0.1f;
+
 			}
 		}
 	}
