@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 971175acabdad584bbcb2b62ac5e6b7f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Phantom2-ATKTop1
+    21300002: Phantom2-ATKTop1_0
+    21300004: Phantom2-ATKTop1_1
+    21300006: Phantom2-ATKTop1_2
+    21300008: Phantom2-ATKTop1_3
+    21300010: Phantom2-ATKTop1_4
+    21300012: Phantom2-ATKTop1_5
+    21300014: Phantom2-ATKTop1_6
+    21300016: Phantom2-ATKTop1_7
+    21300018: Phantom2-ATKTop1_8
+    21300020: Phantom2-ATKTop1_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Phantom2-ATKTop1_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 566
+        width: 409
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-ATKTop1_1
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 566
+        width: 412
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-ATKTop1_2
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 566
+        width: 414
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-ATKTop1_3
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 565
+        width: 416
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-ATKTop1_4
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 566
+        width: 418
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-ATKTop1_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 19
+        width: 416
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-ATKTop1_6
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 18
+        width: 414
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-ATKTop1_7
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 18
+        width: 413
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-ATKTop1_8
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 19
+        width: 411
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-ATKTop1_9
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 19
+        width: 409
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

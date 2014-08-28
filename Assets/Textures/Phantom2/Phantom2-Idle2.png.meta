@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: c8ab8cb384b869f4a9072ec0b18dec2f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Phantom2-Idle2
+    21300002: Phantom2-Idle2_0
+    21300004: Phantom2-Idle2_1
+    21300006: Phantom2-Idle2_2
+    21300008: Phantom2-Idle2_3
+    21300010: Phantom2-Idle2_4
+    21300012: Phantom2-Idle2_5
+    21300014: Phantom2-Idle2_6
+    21300016: Phantom2-Idle2_7
+    21300018: Phantom2-Idle2_8
+    21300020: Phantom2-Idle2_9
+    21300022: Phantom2-Idle2_10
+    21300024: Phantom2-Idle2_11
+    21300026: Phantom2-Idle2_12
+    21300028: Phantom2-Idle2_13
+    21300030: Phantom2-Idle2_14
+    21300032: Phantom2-Idle2_15
+    21300034: Phantom2-Idle2_16
+    21300036: Phantom2-Idle2_17
+    21300038: Phantom2-Idle2_18
+    21300040: Phantom2-Idle2_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Phantom2-Idle2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1487
+        width: 348
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_1
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1487
+        width: 347
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_2
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1487
+        width: 347
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_3
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1487
+        width: 346
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_4
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1487
+        width: 345
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 993
+        width: 344
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_6
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 993
+        width: 344
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_7
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 993
+        width: 345
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_8
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 993
+        width: 344
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_9
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 993
+        width: 342
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 499
+        width: 342
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_11
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 499
+        width: 345
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_12
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 499
+        width: 346
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_13
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 499
+        width: 343
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_14
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 499
+        width: 344
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 5
+        width: 345
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_16
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 5
+        width: 346
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_17
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 5
+        width: 347
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_18
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 5
+        width: 348
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom2-Idle2_19
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 5
+        width: 348
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
