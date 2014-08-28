@@ -10,6 +10,11 @@ public class Spawner : MonoBehaviour {
 
 	private int corner;
 
+    void Start()
+    {
+        
+    }
+
 	void Update(){
 		time += Time.deltaTime;
 		if (time >= 30) {
@@ -52,17 +57,23 @@ public class Spawner : MonoBehaviour {
 		Vector3 locationThree = new Vector3 (5.901252f, -2.569977f, 2f);
 		Vector3 locationFour = new Vector3 (-5.241997f, -2.786465f, 2f);
 
+
 		if(corner == 0){
-			Instantiate (enemyList[0], location, enemy.transform.rotation);
+            GameObject e = Instantiate(enemyList[0], location, enemy.transform.rotation) as GameObject;
+            e.transform.parent = transform;
 		}
 		else if(corner == 1){
-			Instantiate (enemyList[1], locationTwo, enemy.transform.rotation);
+            GameObject e = Instantiate(enemyList[1], locationTwo, enemy.transform.rotation) as GameObject;
+            e.transform.parent = transform;
 		}
 		else if(corner == 2){
-			Instantiate (enemyList[2], locationThree, enemy.transform.rotation);
+            GameObject e = Instantiate(enemyList[2], locationThree, enemy.transform.rotation) as GameObject;
+            e.transform.parent = transform;
 		}
 		else if(corner == 3){
-			Instantiate (enemyList[3], locationFour, enemy.transform.rotation);
+            GameObject e = Instantiate(enemyList[3], locationFour, enemy.transform.rotation) as GameObject;
+            e.transform.parent = transform;
 		}
+            
 	}
 }
