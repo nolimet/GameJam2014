@@ -1,11 +1,12 @@
 fileFormatVersion: 2
 guid: be3b2f02db5f5cd409685d5b0468103c
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: logo
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -28,22 +29,18 @@ TextureImporter:
     aniso: -1
     mipBias: -1
     wrapMode: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-<<<<<<< HEAD
-  alphaIsTransparency: 0
-=======
   alphaIsTransparency: 1
->>>>>>> 5d4b5e6d50a5df19bbb8c8ba97f2af49b0d60773
-  textureType: -1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites: []
