@@ -13,10 +13,7 @@ public class Spawner : MonoBehaviour {
 
 	private int corner;
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 5d4b5e6d50a5df19bbb8c8ba97f2af49b0d60773
 	void Update(){
 		//print ("time" + time);
 		//spawnTimer += Time.deltaTime;

@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: a4d4979b839cde7428ffb53d9d69dfeb
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: lilwayne_spritesheet
+    21300002: lilwayne_spritesheet_0
+    21300004: lilwayne_spritesheet_1
+    21300006: lilwayne_spritesheet_2
+    21300008: lilwayne_spritesheet_3
+    21300010: lilwayne_spritesheet_4
+    21300012: lilwayne_spritesheet_5
+    21300014: lilwayne_spritesheet_6
+    21300016: lilwayne_spritesheet_7
+    21300018: lilwayne_spritesheet_8
+    21300020: lilwayne_spritesheet_9
+    21300022: lilwayne_spritesheet_10
+    21300024: lilwayne_spritesheet_11
+    21300026: lilwayne_spritesheet_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: lilwayne_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 845
+        width: 132
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lilwayne_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 845
+        width: 132
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lilwayne_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 845
+        width: 132
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lilwayne_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 845
+        width: 132
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lilwayne_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 845
+        width: 132
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lilwayne_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 845
+        width: 132
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lilwayne_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 845
+        width: 133
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lilwayne_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 661
+        width: 132
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lilwayne_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 661
+        width: 132
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lilwayne_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 661
+        width: 132
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lilwayne_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 661
+        width: 132
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lilwayne_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 661
+        width: 132
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lilwayne_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 661
+        width: 132
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

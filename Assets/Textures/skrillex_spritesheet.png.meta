@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 9e3d44c46a86e3147a5589e6b174d9bd
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: skrillex_spritesheet
+    21300002: skrillex_spritesheet_0
+    21300004: skrillex_spritesheet_1
+    21300006: skrillex_spritesheet_2
+    21300008: skrillex_spritesheet_3
+    21300010: skrillex_spritesheet_4
+    21300012: skrillex_spritesheet_5
+    21300014: skrillex_spritesheet_6
+    21300016: skrillex_spritesheet_7
+    21300018: skrillex_spritesheet_8
+    21300020: skrillex_spritesheet_9
+    21300022: skrillex_spritesheet_10
+    21300024: skrillex_spritesheet_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: skrillex_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 796
+        width: 117
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skrillex_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 796
+        width: 117
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skrillex_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 796
+        width: 117
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skrillex_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 796
+        width: 117
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skrillex_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 796
+        width: 118
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skrillex_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 796
+        width: 118
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skrillex_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 796
+        width: 118
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skrillex_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 796
+        width: 118
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skrillex_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 563
+        width: 117
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skrillex_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 563
+        width: 117
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skrillex_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 563
+        width: 117
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skrillex_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 563
+        width: 117
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
