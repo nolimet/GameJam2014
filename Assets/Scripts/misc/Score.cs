@@ -28,5 +28,6 @@ public class Score {
 	{
 		multiplierCounter = 0;
 		multiplierScore = 1;
+        Debug.Log("Missed");
 	}
 }

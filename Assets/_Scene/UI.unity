@@ -1149,9 +1149,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1947095325}
   - 20: {fileID: 1947095324}
-  - 92: {fileID: 1947095323}
-  - 124: {fileID: 1947095322}
-  - 81: {fileID: 1947095321}
   - 114: {fileID: 1947095326}
   m_Layer: 5
   m_Name: UI-Cam
@@ -1160,27 +1157,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1947095321
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1947095320}
-  m_Enabled: 1
---- !u!124 &1947095322
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1947095320}
-  m_Enabled: 1
---- !u!92 &1947095323
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1947095320}
-  m_Enabled: 1
 --- !u!20 &1947095324
 Camera:
   m_ObjectHideFlags: 0

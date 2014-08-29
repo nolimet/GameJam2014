@@ -6,10 +6,12 @@ public class HitBox : MonoBehaviour {
 
     [SerializeField]
     bool[] KeyPressed;
+    float[] KeyPressedTime;
 
     void Start()
     {
         KeyPressed = new bool[4];
+        KeyPressedTime = new float[4];
     }
 
     void Update()
@@ -19,12 +21,16 @@ public class HitBox : MonoBehaviour {
             if (Input.GetAxis("key" + (i+1)) > 0.001f)
             {
                 KeyPressed[i] = true;
+
+                KeyPressedTime[i] += Time.deltaTime;
             }
             else
             {
                 KeyPressed[i] = false;
+                KeyPressedTime[i] = 0;
             }
-            print(i + ":" + KeyPressed[i]);
+            if (KeyPressedTime[0] > 0.4f)
+                Score.mistake();
         }
     }
 
@@ -33,9 +39,9 @@ public class HitBox : MonoBehaviour {
         {
             if (KeyPressed[i] == true && other.tag == Statics.EnemyTag && other.name == "Enemy " + i + "(Clone)")
             {
-                Debug.Log("Bonk");
                 if (Vector3.Distance(transform.position, other.transform.position) > 2)
                 {
+                    KeyPressedTime[0] = 0;
                     Score.addScore();
                     Destroy(other.gameObject);
                 }
