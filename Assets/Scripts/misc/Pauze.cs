@@ -33,7 +33,16 @@ public class Pauze : MonoBehaviour {
 				//GameObject.Find ("audio source Muted").audio.Pause();
 				GameObject.Find ("Directional light").light.intensity = 0.1f;
 				txme.text = "Paused";
+			}
+		}
+	}
 
+	void OnGUI ()
+	{
+		if (paused) 
+		{
+			if (GUI.Button (new Rect (Screen.width / 2 - 100, Screen.height / 2 - 10, 200, 20), "Main Menu")) {
+				Application.LoadLevel ("menu");
 			}
 		}
 	}
