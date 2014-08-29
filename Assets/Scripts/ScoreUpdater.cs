@@ -6,6 +6,10 @@ public class ScoreUpdater : MonoBehaviour {
 
     TextMesh txme;
 
+    [SerializeField]
+    bool Counter;
+
+
     void Start()
     {
        txme = GetComponent<TextMesh>();
@@ -13,6 +17,9 @@ public class ScoreUpdater : MonoBehaviour {
 
     void Update()
     {
-        txme.text = "Score: " + Statics.Score + '\n' + "HighScore: " + Statics.HighestScore;
+        if (!Counter)
+            txme.text = "Score: " + Statics.Score + '\n' + "HighScore: " + Statics.HighestScore;
+        else
+            txme.text = "Multipler:" + Score.multiplierScore;
     }
 }

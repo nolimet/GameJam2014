@@ -32,7 +32,8 @@ namespace menu
                         timer -= Time.deltaTime;
                         if (!loading && timer <= 0)
                         {
-                            transform.parent.parent.gameObject.GetComponent<Loader>().SyncLoadLevel(url);
+                            Application.LoadLevel(url);
+                            //transform.parent.parent.gameObject.GetComponent<Loader>().SyncLoadLevel(url);
                             loading = true;
                         }
                     }
