@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 09eb1be74632d884287fc6605e67b94c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Phantom1-ATKLOW1
+    21300002: Phantom1-ATKLOW1_0
+    21300004: Phantom1-ATKLOW1_1
+    21300006: Phantom1-ATKLOW1_2
+    21300008: Phantom1-ATKLOW1_3
+    21300010: Phantom1-ATKLOW1_4
+    21300012: Phantom1-ATKLOW1_5
+    21300014: Phantom1-ATKLOW1_6
+    21300016: Phantom1-ATKLOW1_7
+    21300018: Phantom1-ATKLOW1_8
+    21300020: Phantom1-ATKLOW1_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Phantom1-ATKLOW1_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 576
+        width: 353
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom1-ATKLOW1_1
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 576
+        width: 357
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom1-ATKLOW1_2
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 576
+        width: 361
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom1-ATKLOW1_3
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 576
+        width: 365
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom1-ATKLOW1_4
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 576
+        width: 369
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom1-ATKLOW1_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 26
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom1-ATKLOW1_6
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 26
+        width: 368
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom1-ATKLOW1_7
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 26
+        width: 363
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom1-ATKLOW1_8
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 26
+        width: 358
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom1-ATKLOW1_9
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 26
+        width: 353
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

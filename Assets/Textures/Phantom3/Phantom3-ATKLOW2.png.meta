@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: a9b1205d96a81e5459ba75ac70ee1e04
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Phantom3-ATKLOW2
+    21300002: Phantom3-ATKLOW2_0
+    21300004: Phantom3-ATKLOW2_1
+    21300006: Phantom3-ATKLOW2_2
+    21300008: Phantom3-ATKLOW2_3
+    21300010: Phantom3-ATKLOW2_4
+    21300012: Phantom3-ATKLOW2_5
+    21300014: Phantom3-ATKLOW2_6
+    21300016: Phantom3-ATKLOW2_7
+    21300018: Phantom3-ATKLOW2_8
+    21300020: Phantom3-ATKLOW2_9
+    21300022: Phantom3-ATKLOW2_10
+    21300024: Phantom3-ATKLOW2_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Phantom3-ATKLOW2_0
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 594
+        width: 356
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom3-ATKLOW2_1
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 594
+        width: 369
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom3-ATKLOW2_2
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 594
+        width: 386
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom3-ATKLOW2_3
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 594
+        width: 491
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom3-ATKLOW2_4
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 594
+        width: 432
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom3-ATKLOW2_5
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 594
+        width: 403
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom3-ATKLOW2_6
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 30
+        width: 383
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom3-ATKLOW2_7
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 30
+        width: 377
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom3-ATKLOW2_8
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 28
+        width: 371
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom3-ATKLOW2_9
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 30
+        width: 366
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom3-ATKLOW2_10
+      rect:
+        serializedVersion: 2
+        x: 2516
+        y: 30
+        width: 362
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Phantom3-ATKLOW2_11
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 30
+        width: 353
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

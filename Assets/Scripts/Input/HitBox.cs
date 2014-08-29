@@ -6,10 +6,6 @@ public class HitBox : MonoBehaviour {
 
     [SerializeField]
     bool[] KeyPressed;
-    
-    [SerializeField]
-    [Range(1,4)]
-    int key = 1;
 
     void Start()
     {
@@ -32,13 +28,17 @@ public class HitBox : MonoBehaviour {
         }
     }
 
-	void OnTriggerEnter2d(Collision2D other){
+	void OnTriggerEnter2D(Collider2D other){
         for (int i = 0; i <= 3; i++)
         {
-            if (KeyPressed[i] && other.gameObject.tag == Statics.EnemyTag && other.gameObject.name == "Enemy " + i)
+            if (KeyPressed[i] == true && other.tag == Statics.EnemyTag && other.name == "Enemy " + i + "(Clone)")
             {
-                Score.addScore();
-                Destroy(other.gameObject);
+                Debug.Log("Bonk");
+                if (Vector3.Distance(transform.position, other.transform.position) > 2)
+                {
+                    Score.addScore();
+                    Destroy(other.gameObject);
+                }
             }
         }
     }

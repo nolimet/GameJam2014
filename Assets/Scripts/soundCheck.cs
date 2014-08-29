@@ -173,6 +173,7 @@ public class soundCheck : MonoBehaviour {
 		spawner4 = false;
 
 		counter += Time.deltaTime;
+<<<<<<< HEAD
 		//print (audio.time);
 		print ("low: " + low + "- mid: " + mid + "- midTwo: " + midTwo + "- high: " + high);
 		if (counter >= 0) {
@@ -181,6 +182,10 @@ public class soundCheck : MonoBehaviour {
 			freqMidTwo = 0.01f;
 			freqHigh = 0.09f;	
 		}
+=======
+		//print (counter + ". mid: " + mid);
+
+>>>>>>> 5d4b5e6d50a5df19bbb8c8ba97f2af49b0d60773
 		if (counter >= 12.6) {
 			freqMid = 0.0024f;		
 		}
