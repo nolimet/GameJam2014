@@ -34,7 +34,7 @@ public class HitBox : MonoBehaviour {
             if (KeyPressed[i] == true && other.tag == Statics.EnemyTag && other.name == "Enemy " + i + "(Clone)")
             {
                 Debug.Log("Bonk");
-                if (Vector3.Distance(transform.position, other.transform.position) < 2)
+                if (Vector3.Distance(transform.position, other.transform.position) > 2)
                 {
                     Score.addScore();
                     Destroy(other.gameObject);
